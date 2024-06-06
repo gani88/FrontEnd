@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PT Harapan Makmur</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="SimpleWeb/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-navbar-fixed">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#">PT Harapan Makmur</a>
+        <button
+          class="navbar-toggler bg-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#tentang-kami"
+                >Tentang Kami</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Mobil
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#mobil-baru">Baru</a></li>
+                <li><a class="dropdown-item" href="#mobil-bekas">Bekas</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Hero Section -->
+     <section class="hero" >
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-sm-12">
+            <h1 class="fs-1 md-1 lg-1">Jual Beli Mobil Baru atau Bekas dengan angsuran mulai dari Rp 1,5 jt</h1>
+            <button type="button" class="btn btn-primary">Beli Sekarang</button>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <img src="SimpleWeb/img/sports car-bro.svg" class="img-fluid" alt="Car Art Style">
+          </div>
+        </div>
+      </div>
+     </section>
+     <!-- End of Hero -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Brand Section -->
+    <section class="section-bg brands">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-2 col-md-4 col-sm-6 d-flex justify-content-center">
+            <img src="SimpleWeb/img/nissan.png" class="img-fluid">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 d-flex justify-content-center">
+            <img src="SimpleWeb/img/nissan.png" class="img-fluid">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 d-flex justify-content-center">
+            <img src="SimpleWeb/img/nissan.png" class="img-fluid">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 d-flex justify-content-center">
+            <img src="SimpleWeb/img/nissan.png" class="img-fluid">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 d-flex justify-content-center">
+            <img src="SimpleWeb/img/nissan.png" class="img-fluid">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 d-flex justify-content-center">
+            <img src="SimpleWeb/img/nissan.png" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>    
+    <!-- End Brand Section -->
+
+    <!-- About Us Section -->
+      <section id="tentang-kami" class="mt-4">
+        <div class="container">
+          <h2 class="text-center mb-4">Tentang Kami</h2>
+          <div class="row my-5">
+            <div class="col-lg-6">
+              <h4>Siapa Kami ?</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nostrum corrupti quia culpa repellendus laborum.</p>
+            </div>
+            <div class="col-lg-6">
+              <h4>Layanan Kami</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates at veritatis eius voluptas maxime molestias?</p>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+    <!-- End About Us -->
+
+    <!-- Credit Section -->
+    <section class="section-bg credit-section">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-6">
+                  <h3>Alur <strong>Pengajuan Kredit</strong> Mobil Baru atau Bekas</h3>
+                  <p class="secondary-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, est consequatur voluptate necessitatibus dolorum magni id quos voluptas veritatis dolorem?</p>
+                  <div class="accordion" id="accordionExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Accordion Item #1
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Accordion Item #2
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Accordion Item #3
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                          
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-6">
+                  <img src="SimpleWeb/img/Visual data-bro.svg" alt="accordion">
+              </div>
+          </div>
+      </div>
+  </section>
+    <!-- End Credit -->
+
+    <!-- Service Section Start -->
+     <section class="py-5">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="col">
+            <div class="card h-100 border-0 card-item-car">
+              <img src="SimpleWeb/img/honda.jpg" class="card-img-top" alt="mercy">
+              <div class="card-body">
+                <h6 class="card-title">2018 Mercedes-Benz GLC 200 (CKD) 2.07</h6>
+                <p>40.50 KM | Automatic | <span class="badge text-bg-success">Bekas</span></p>
+                <p class="card-text text-danger">Rp 800.000.000</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 border-0 card-item-car">
+              <img src="SimpleWeb/img/honda.jpg" class="card-img-top" alt="mercy">
+              <div class="card-body">
+                <h6 class="card-title">2018 Mercedes-Benz GLC 200 (CKD) 2.07</h6>
+                <p>40.50 KM | Automatic | <span class="badge text-bg-success">Bekas</span></p>
+                <p class="card-text text-danger">Rp 800.000.000</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 border-0 card-item-car">
+              <img src="SimpleWeb/img/honda.jpg" class="card-img-top" alt="mercy">
+              <div class="card-body">
+                <h6 class="card-title">2018 Mercedes-Benz GLC 200 (CKD) 2.07</h6>
+                <p>40.50 KM | Automatic | <span class="badge text-bg-success">Bekas</span></p>
+                <p class="card-text text-danger">Rp 800.000.000</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 border-0 card-item-car">
+              <img src="SimpleWeb/img/honda.jpg" class="card-img-top" alt="mercy">
+              <div class="card-body">
+                <h6 class="card-title">2018 Mercedes-Benz GLC 200 (CKD) 2.07</h6>
+                <p>40.50 KM | Automatic | <span class="badge text-bg-success">Bekas</span></p>
+                <p class="card-text text-danger">Rp 800.000.000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+     </section>
+    <!-- Service End -->
+  </body>
+</html>
